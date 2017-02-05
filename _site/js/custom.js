@@ -2,10 +2,9 @@ $(document).ready(function(){
 
 var waypoint = new Waypoint({
   element: document.getElementById('waypoint'),
-  handler: function(direction) {
-  }
+  handler: function() {
+    }
 })
- 
   // hide our element on page load
   $('#element-to-animate').css('opacity', 0);
   $('#element-to-animate1').css('opacity', 0);
@@ -20,3 +19,6 @@ var waypoint = new Waypoint({
 	  $('#element-to-animate1').css('opacity', 100);
   		});
   });
+
+var c=document.getElementById('c');
+c.style.width = "95%";

@@ -18,16 +18,16 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                        {% assign pages = site.pages | sort:"index" %}
-                          {% for p in pages | where: index>0 %}
-                          {% if p.index != 0 %}
-                            <li class="page-scroll">
-                              <a {% if p.url == page.url %}{% endif %} href="{{ p.url }}">
-                                {{ p.title }}
-                              </a>
-                            </li>
-                            {% endif %}
-                          {% endfor %}
+                    {% assign pages = site.pages | sort:"index" %}
+                      {% for p in pages %}
+                      {% if p.index > 0 %}
+                        <li class="page-scroll">
+                          <a {% if p.url == page.url %}href="#page-top"{% endif %} href="{{ p.url }}">
+                            {{ p.title }}
+                          </a>
+                        </li>
+                        {% endif %}
+                      {% endfor %}
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>

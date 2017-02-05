@@ -11,10 +11,18 @@ email: josiahmaharaj@outlook.com
 description: I like to Code Stuff, Design Things and Edit anything! Websites, Apps, Advertisments?...yup! Send me an email and let's work on something new !
 baseurl: "" 
 url: "http://josiahmaharaj.github.io" # the base hostname & protocol for your site
-twitter_username: josiah_eli
-github_username:  josiahmaharaj
+author: Josiah Maharaj
+
+social:
+  name: Josiah Maharaj
+  links:
+    - https://twitter.com/josiah_eli
+    - https://www.facebook.com/josiahmaharaj
+    # - https://www.linkedin.com/in/BenBalter
+    # - https://plus.google.com/+BenBalter
+    - https://github.com/josiahmaharaj
 
 # Build settings
 markdown: kramdown
 
-port: 5000
+port: 4000
