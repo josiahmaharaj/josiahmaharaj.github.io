@@ -21,6 +21,9 @@ social:
     # - https://www.linkedin.com/in/BenBalter
     # - https://plus.google.com/+BenBalter
     - https://github.com/josiahmaharaj
+gems:
+  - jekyll-seo-tag
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown
