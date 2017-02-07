@@ -23,21 +23,24 @@ index: 3
   <section class="posts-bg">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                </div>
-            </div>
-        <ul class="post-list">
+            <ul class="post-list">
             {% for post in site.posts %}
-              <li>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <li>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                        </div>
+                        <img class="thumb" src="{{"/img/portfolio/cabin.png" | prepend: site.baseurl }}" alt="">
+                        <p>{{ post.title }}</p>
+                    </a>
 
-                <h2>
-                  <a class="portfolio-link" href="{{ post.url | prepend: site.baseurl }}" data-toggle="modal">{{ post.title }}</a>
-                </h2>
-              </li>
-            {% endfor %}
-          </ul>
+                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                </div>
+                </li>
+                {% endfor %}
+                 </ul>
+            </div>
         </div>
     </section>
-
-    
+            
+         

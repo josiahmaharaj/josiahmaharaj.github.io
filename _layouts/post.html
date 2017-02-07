@@ -1,55 +1,50 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-{% for post in site.posts %}
-<div class="portfolio-modal modal fade" id="{{ post.title | replace: ' ', '_' }}" tabindex="-1" role="dialog" aria-hidden="true">
-{% endfor %}
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <header class="index-bg">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="intro-text">
-                                                <span class="name" itemprop="name headline">{{ page.title }}</span>
-                                                <hr class="star-light">
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </header>
-                            <hr class="star-primary">
-                            <!-- <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt=""> -->
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+     <!-- Header -->
+    <header class="blog-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <h1 class="post-title name" itemprop="name headline">{{ page.title }}</h1>
+                        <span class="post-meta skills">{{ page.date | date: "%b %-d, %Y" }}</span><br>
+                        <em>by: <span>{{ page.author }}</span></em>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+
+<section>
+        <div class="container">
+            <div class="row">
+
+    <article class="post col-lg-12" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <header class="post-header">
+        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        {{ content }}
+      </div>
+
+    </article>
+            </div>
+        </div>
+</section>
+
+<div class="row col-lg-12"></div><h5 class="text-center">Tags: {{ page.tag }} </h5><div class="row col-lg-12"></div>
+
+    {% include footer-post.html %}
+
+  </body>
+
+</html>

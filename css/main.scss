@@ -50,15 +50,45 @@ index: -1
 	margin-left: 50px;
 	margin-right: 50px;
 }
-.skill-set{
-	margin-left: 100px;
-@media screen and (max-width: 1000px){
-	margin-left:50px;
-	}
 
+// ABOUT
+
+.bio{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.bioless{
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.morebio{
+	visibility: none;
+}
+
+// BLOG
+.thumb{
+	width: 200px;
+	height: 150px;
+}
+
+.post-list{
+	list-style: none;
+}
+// RESUME
+.skill-set{
 	p>strong{
 		color: #ffffff;
 	}
+}
+
+@media screen and (max-width: 800px) {
+	.skill-set{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
 }
 
 .resume-btn:hover, .resume-btn:focus, .resume-btn:active{
@@ -88,12 +118,6 @@ index: -1
   line-height: 20px;
   color: #fff;
   text-align: center;
-  // background-color: #337ab7;
-/*  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
-          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
-  -webkit-transition: width .6s ease;
-       -o-transition: width .6s ease;
-          transition: width .6s ease;*/
 }
 
 
@@ -103,4 +127,9 @@ index: -1
 
 .bg-green{
 	background-color: #1bbc18;
+}
+
+// CONTACT
+#contact{
+	margin: 0;
 }

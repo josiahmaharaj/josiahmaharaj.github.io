@@ -102,7 +102,13 @@ $('#waypoint5').waypoint(function(){
       width: "80%",
   }, 600, 'easeOutCirc');
   this.destroy();
-  })
+  });
+
+$("#morebio").hide();
+$("#biomore").click(function(){
+    $("#morebio").fadeIn(1000);
+    $('#biomore').hide(50);
+});
 
 });
 
