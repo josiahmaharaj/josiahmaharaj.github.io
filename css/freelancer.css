@@ -88,7 +88,7 @@ hr.me-light {
   border-color: white;
 }
 hr.me-light:after {
-  background-color: #8a2be2;
+  background-color: #deb887;
   color: white;
 }
 hr.me-primary {
@@ -123,7 +123,7 @@ hr.lap-light {
   border-color: white;
 }
 hr.lap-light:after {
-  background-color: #ffe4c4;
+  background-color: #d2691e;
   color: white;
 }
 hr.lap-primary {

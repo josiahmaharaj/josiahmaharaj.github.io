@@ -1,24 +1,113 @@
 $(document).ready(function(){
 
-var waypoint = new Waypoint({
-  element: document.getElementById('waypoint'),
-  handler: function() {
-    }
-})
-  // hide our element on page load
-  $('#element-to-animate').css('opacity', 0);
-  $('#element-to-animate1').css('opacity', 0);
- 
-    $('#waypoint').waypoint(function() {
+$('#element-to-animate').css('opacity', 0);
+$('#element-to-animate1').css('opacity', 0);
+
+$('#waypoint1').waypoint(function() {
     $('#element-to-animate').addClass('bounceInDown');
     $('#element-to-animate').css('opacity', 100);
-  		});
+    console.log (this);
+    this.destroy();
+    //alert('You have scrolled to an entry.');
+})
 
-	  $('#waypoint').waypoint(function() {
-	  $('#element-to-animate1').addClass('bounceInUp');
-	  $('#element-to-animate1').css('opacity', 100);
-  		});
-  });
+$('#waypoint1').waypoint(function() {
+    $('#element-to-animate1').addClass('bounceInUp');
+    $('#element-to-animate1').css('opacity', 100);
+    console.log (this);
+    this.destroy();
+    //alert('You have scrolled to an entry.');
+})
 
-var c=document.getElementById('c');
-c.style.width = "95%";
+$('#waypoint2').waypoint(function(){
+  $('#c').animate({
+        width: "95%",
+    }, 600, 'easeOutCirc'), 
+  $('#cplus').animate({
+        width: "85%",
+    }, 600, 'easeOutCirc'),
+  $('#csharp').animate({
+        width: "55%",
+    }, 600, 'easeOutCirc'),
+  $('#py').animate({
+      width: "90%",
+  }, 600, 'easeOutCirc'),
+  $('#java').animate({
+      width: "60%",
+  }, 600, 'easeOutCirc'),
+  $('#r').animate({
+      width: "99%",
+  }, 600, 'easeOutCirc');
+  this.destroy();
+  })
+
+$('#waypoint3').waypoint(function(){
+  $('#html').animate({
+        width: "100%",
+    }, 600, 'easeOutCirc'), 
+  $('#js').animate({
+        width: "75%",
+    }, 600, 'easeOutCirc'),
+  $('#bs').animate({
+        width: "92%",
+    }, 600, 'easeOutCirc'),
+  $('#php').animate({
+      width: "89%",
+  }, 600, 'easeOutCirc'),
+  $('#sql').animate({
+      width: "85%",
+  }, 600, 'easeOutCirc'),
+  $('#wp').animate({
+      width: "95%",
+  }, 600, 'easeOutCirc');
+  this.destroy();
+  })
+
+$('#waypoint4').waypoint(function(){
+  $('#ps').animate({
+        width: "95%",
+    }, 600, 'easeOutCirc'), 
+  $('#il').animate({
+        width: "75%",
+    }, 600, 'easeOutCirc'),
+  $('#au').animate({
+        width: "100%",
+    }, 600, 'easeOutCirc'),
+  $('#pr').animate({
+      width: "90%",
+  }, 600, 'easeOutCirc'),
+  $('#ae').animate({
+      width: "87%",
+  }, 600, 'easeOutCirc'),
+  $('#fcp').animate({
+      width: "85%",
+  }, 600, 'easeOutCirc');
+  this.destroy();
+  })
+
+$('#waypoint5').waypoint(function(){
+  $('#msw').animate({
+        width: "98%",
+    }, 600, 'easeOutCirc'), 
+  $('#mse').animate({
+        width: "80%",
+    }, 600, 'easeOutCirc'),
+  $('#mspp').animate({
+        width: "97%",
+    }, 600, 'easeOutCirc'),
+  $('#msv').animate({
+      width: "87%",
+  }, 600, 'easeOutCirc'),
+  $('#msp').animate({
+      width: "80%",
+  }, 600, 'easeOutCirc');
+  this.destroy();
+  })
+
+});
+
+// $('#toptrigger').waypoint(function() {
+//     $('#waypoint').removeClass('onn');
+// }, {
+//     offset: '-1'
+// });
