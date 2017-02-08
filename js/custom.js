@@ -127,12 +127,11 @@ $(window).resize(function () {
     if (viewportWidth < 768) {
             $(".labelcontact").animate({
                 fontSize: "30px",
-            }, 600, 'easeOutCirc'),
-    }
-});
+            }, 600, 'easeOutCirc')};
 
 });
 
+});
 // $('#toptrigger').waypoint(function() {
 //     $('#waypoint').removeClass('onn');
 // }, {
