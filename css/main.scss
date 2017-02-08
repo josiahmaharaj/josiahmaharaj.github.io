@@ -29,6 +29,10 @@ index: -1
 	background-color: #add8e6;
 }
 
+.contact-bg{
+	background-color: #a52a2a;
+}
+
 .index2-bg{
 	background-color: #fff8dc;
 }
@@ -130,6 +134,30 @@ index: -1
 }
 
 // CONTACT
-#contact{
-	margin: 0;
+
+.contactforminfo{
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.modal-title>h2{
+	text-align: center;
+}
+
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+// 404
+.img-404>img{
+	width: 500px;
+	height: auto;
+	border: solid 10px #fff;
+}
+
+.pageNav {
+	text-align: center;
+	padding: 20px;
 }

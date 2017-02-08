@@ -50,7 +50,11 @@ $('#waypoint3').waypoint(function(){
     }, 600, 'easeOutCirc'),
   $('#bs').animate({
         width: "92%",
-    }, 600, 'easeOutCirc'),
+    }, 600, 'easeOutCirc');
+  this.destroy();
+  })
+
+$('#waypoint5').waypoint(function(){
   $('#php').animate({
       width: "89%",
   }, 600, 'easeOutCirc'),
@@ -63,7 +67,7 @@ $('#waypoint3').waypoint(function(){
   this.destroy();
   })
 
-$('#waypoint4').waypoint(function(){
+$('#waypoint5').waypoint(function(){
   $('#ps').animate({
         width: "95%",
     }, 600, 'easeOutCirc'), 
@@ -72,7 +76,11 @@ $('#waypoint4').waypoint(function(){
     }, 600, 'easeOutCirc'),
   $('#au').animate({
         width: "100%",
-    }, 600, 'easeOutCirc'),
+    }, 600, 'easeOutCirc');
+  this.destroy();
+  })
+
+$('#waypoint6').waypoint(function(){
   $('#pr').animate({
       width: "90%",
   }, 600, 'easeOutCirc'),
@@ -83,9 +91,9 @@ $('#waypoint4').waypoint(function(){
       width: "85%",
   }, 600, 'easeOutCirc');
   this.destroy();
-  })
+  });
 
-$('#waypoint5').waypoint(function(){
+$('#waypoint7').waypoint(function(){
   $('#msw').animate({
         width: "98%",
     }, 600, 'easeOutCirc'), 
@@ -94,7 +102,11 @@ $('#waypoint5').waypoint(function(){
     }, 600, 'easeOutCirc'),
   $('#mspp').animate({
         width: "97%",
-    }, 600, 'easeOutCirc'),
+    }, 600, 'easeOutCirc');
+  this.destroy();
+  })
+
+$('#waypoint8').waypoint(function(){
   $('#msv').animate({
       width: "87%",
   }, 600, 'easeOutCirc'),
