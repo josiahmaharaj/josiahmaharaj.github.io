@@ -122,6 +122,15 @@ $("#biomore").click(function(){
     $('#biomore').hide(50);
 });
 
+$(window).resize(function () {
+    var viewportWidth = $(window).width();
+    if (viewportWidth < 768) {
+            $(".labelcontact").animate({
+                fontSize: "30px",
+            }, 600, 'easeOutCirc'),
+    }
+});
+
 });
 
 // $('#toptrigger').waypoint(function() {
