@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gifs? I Think So"
-date:   2015-11-17 16:16:01 -0600
+date:   2017-03-08
 categories: gifs
 author: Josiah Maharaj
 ---
