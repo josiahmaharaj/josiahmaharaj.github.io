@@ -3,9 +3,11 @@ layout: post
 title:  "Gifs? I Think So"
 date:   2015-11-17 16:16:01 -0600
 categories: gifs
+author: Josiah Maharaj
 ---
-#Gifs (G for Giraffe)
+Gifs (G for Giraffe)
+===
 
-1. Michael Scott - "Why are you the way that you are"
+1. Michael Scott - "I have to be liked"
 
-![michael-scott-whyareyou](https://drive.google.com/file/d/0B2mH_sRnxE2jQnRZRW5COGxlQW8/view?usp=sharing)
+![michael-scott-havetobeliked](https://drive.google.com/uc?export=download&id=0B2mH_sRnxE2jQnRZRW5COGxlQW8)
