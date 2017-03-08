@@ -2,7 +2,7 @@
 layout: post
 title:  "Gifs? I Think So"
 date:   2017-03-08
-categories: gifs
+tags: gifs
 author: Josiah Maharaj
 ---
 Gifs (G for Giraffe)
