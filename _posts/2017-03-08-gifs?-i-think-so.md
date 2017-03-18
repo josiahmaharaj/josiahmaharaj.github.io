@@ -1,10 +1,12 @@
 ---
+title: Gifs? I Think So
+date: 2017-03-08 00:00:00 Z
+tags:
+- gifs
 layout: post
-title:  "Gifs? I Think So"
-date:   2017-03-08
-tag: gifs
 author: Josiah Maharaj
 ---
+
 Gifs (G for Giraffe)
 ===
 
