@@ -1,0 +1,115 @@
+.profilepic {
+  width: 200px; }
+
+.index-bg {
+  background-color: #18BC9C; }
+
+.about-bg {
+  background-color: #deb887; }
+
+.blog-bg {
+  background-color: #d2691e; }
+
+.posts-bg {
+  background-color: #f0ffff; }
+
+.resume-bg {
+  background-color: #add8e6; }
+
+.contact-bg {
+  background-color: #a52a2a; }
+
+.daybreak-bg {
+  background-color: #696969; }
+
+.index2-bg {
+  background-color: #fff8dc; }
+
+.indexchart-bg {
+  background-color: #f08080; }
+
+.fa2 {
+  font-size: 30px; }
+
+.index2-bg {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+#contact {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.bio {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.bioless {
+  max-width: 400px;
+  margin: 0 auto; }
+
+.morebio {
+  visibility: none; }
+
+.thumb {
+  width: 200px;
+  height: 150px; }
+
+.post-list {
+  list-style: none; }
+
+.skill-set p > strong {
+  color: #ffffff; }
+
+@media screen and (max-width: 800px) {
+  .skill-set {
+    padding-left: 100px;
+    padding-right: 100px; } }
+.resume-btn:hover, .resume-btn:focus, .resume-btn:active {
+  color: #f08080; }
+
+.social-btn:hover, .social-btn:focus, .social-btn:active {
+  color: #2c3e50; }
+
+.progress {
+  height: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 0px;
+  /* -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+           box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);*/ }
+
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center; }
+
+.bg-yellow {
+  background-color: #ffd700; }
+
+.bg-green {
+  background-color: #1bbc18; }
+
+.contactforminfo {
+  padding-right: 50px;
+  padding-left: 50px; }
+
+.modal-title > h2 {
+  text-align: center; }
+
+.modal-content {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important; }
+
+.img-404 > img {
+  width: 500px;
+  height: auto;
+  border: solid 10px #fff; }
+
+.pageNav {
+  text-align: center;
+  padding: 20px; }
