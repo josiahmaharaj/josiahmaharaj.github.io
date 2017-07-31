@@ -29,8 +29,13 @@ index: 3
                 <div class="col-sm-4 portfolio-item">
                     <a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                        </div>
-                        <img class="thumb" src="{{"/img/portfolio/cabin.png" | prepend: site.baseurl }}" alt="">
+                        </div> 
+                        {% if post.thumbnail %}
+                            <img class="thumb" src= "{{ post.thumbnail | prepend: site.baseurl }}" alt="">
+                        {% else %}
+                            <img class="thumb" src= "{{ "/img/portfolio/cake.png" | prepend: site.baseurl }}" alt="">
+                        {% endif %}
+
                         <p>{{ post.title }}</p>
                     </a>
 

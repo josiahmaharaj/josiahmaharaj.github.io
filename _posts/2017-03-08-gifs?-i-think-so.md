@@ -5,6 +5,7 @@ tags:
 - gifs
 layout: post
 author: Josiah Maharaj
+thumbnail: /img/portfolio/cabin.png
 ---
 
 Gifs (G for Giraffe)
