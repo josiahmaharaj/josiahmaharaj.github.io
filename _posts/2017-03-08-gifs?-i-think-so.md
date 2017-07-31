@@ -1,11 +1,11 @@
 ---
 title: Gifs? I Think So
-date: '2017-03-08T00:00:00.000+00:00'
+date: 2017-03-08 00:00:00 Z
 tags:
 - gifs
 layout: post
 author: Josiah Maharaj
-thumbnail: /img/portfolio/cabin.png
+thumbnail: "/img/portfolio/cabin.png"
 ---
 
 Gifs (G for Giraffe)
