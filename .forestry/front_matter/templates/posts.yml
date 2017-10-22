@@ -1,0 +1,23 @@
+---
+pages:
+- _posts/2017-07-31-yamaha-moxf8.md
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  default: 2017-08-01 00:42:07 +0000
+  label: date
+  name: date
+- type: text
+  name: layout
+  label: Layout
+  default: post
+- type: text
+  label: Author
+  name: author
+  default: Josiah Maharaj
+- type: file
+  label: Thumbnail
+  name: thumbnail
