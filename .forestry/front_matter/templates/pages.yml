@@ -1,7 +1,7 @@
 ---
-pages:
-- coryal.md
+label: Pages
 hide_body: false
+is_partial: false
 fields:
 - type: text
   name: title

@@ -1,7 +1,7 @@
 ---
-pages:
-- _posts/2017-07-31-yamaha-moxf8.md
+label: Posts
 hide_body: false
+is_partial: false
 fields:
 - type: text
   name: title
@@ -21,3 +21,5 @@ fields:
 - type: file
   label: Thumbnail
   name: thumbnail
+pages:
+- _posts/2017-07-31-yamaha-moxf8.md
