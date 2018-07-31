@@ -21,5 +21,3 @@ fields:
 - type: file
   label: Thumbnail
   name: thumbnail
-pages:
-- _posts/2017-07-31-yamaha-moxf8.md
